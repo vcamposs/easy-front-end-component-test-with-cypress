@@ -1,0 +1,15 @@
+{
+	"fixturesFolder": "mock",
+	"integrationFolder": "features",
+	"pluginsFile": "config/plugins.js",
+	"supportFile": "config/support.js",
+	"screenshotsFolder": "screenshots",
+	"baseUrl": "http://localhost:3000/",
+	"video": false,
+	"reporter": "mochawesome",
+	"reporterOptions": {
+		"overwrite": false,
+		"html": false,
+		"json": true
+	}
+}
