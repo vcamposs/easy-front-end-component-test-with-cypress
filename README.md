@@ -1,31 +1,29 @@
-### Baixe o projeto :
+#### 1. Baixar o projeto :
 ```
 $ git clone https://github.com/vcamposs/easy-front-end-component-test-with-cypress.git
 ```
-### Instale as dependências :
-1. /app
+#### 2. Instalar as dependências :
+a. /app
 ```
 $ cd app
 $ npm install
 ```
-2. /component-test
+b. /component-test
 ```
 $ cd component-test
 $ npm install
 ```
-### Subindo o ambiente via docker compose :
+#### 2. Subir o ambiente via docker compose (app e stubby):
 ```
 $ cd component-test
 $ docker-compose -f docker-compose.yml up -d --build --force-recreate
 ```
-### O app está presente em "http://localhost:3000/".
-### O Stubby está presente em "http://localhost:8884/".
-### Execute o teste via Cypress :
+O app está presente em "http://localhost:3000/" e o Stubby em "http://localhost:8884/".
+#### Execute o teste via Cypress :
 ```
 $ npm run e2e-test:failOnSnapshotDiff
 ```
-### Gere o relatório :
+#### Gere o relatório :
 ```
 $ node report/index.js
 ```
-
