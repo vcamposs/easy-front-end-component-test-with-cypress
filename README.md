@@ -17,7 +17,7 @@ $ npm install
 ```
 #### 3. Subir o ambiente via docker compose (app e stubby):
 ```
-$ cd component-test
+$ cd ..
 $ docker-compose -f docker-compose.yml up -d --build --force-recreate
 ```
 O app está presente em "http://localhost:3000/" e o Stubby em "http://localhost:8884/".
