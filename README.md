@@ -1,3 +1,5 @@
+
+## Como utilizar ?
 #### 1. Baixar o projeto :
 ```
 $ git clone https://github.com/vcamposs/easy-front-end-component-test-with-cypress.git
@@ -23,7 +25,7 @@ O app está presente em "http://localhost:3000/" e o Stubby em "http://localhost
 ```
 $ npm run e2e-test:failOnSnapshotDiff
 ```
-#### 5. Gere o relatório :
+#### 5. Gerar o relatório :
 ```
 $ node report/index.js
 ```
