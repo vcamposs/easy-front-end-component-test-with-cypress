@@ -13,17 +13,17 @@ b. /component-test
 $ cd component-test
 $ npm install
 ```
-#### 2. Subir o ambiente via docker compose (app e stubby):
+#### 3. Subir o ambiente via docker compose (app e stubby):
 ```
 $ cd component-test
 $ docker-compose -f docker-compose.yml up -d --build --force-recreate
 ```
 O app está presente em "http://localhost:3000/" e o Stubby em "http://localhost:8884/".
-#### Execute o teste via Cypress :
+#### 4. Executar o teste via Cypress :
 ```
 $ npm run e2e-test:failOnSnapshotDiff
 ```
-#### Gere o relatório :
+#### 5. Gere o relatório :
 ```
 $ node report/index.js
 ```
