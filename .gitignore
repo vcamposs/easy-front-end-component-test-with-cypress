@@ -1,0 +1,29 @@
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# node_modules
+node_modules
+
+
+### cypress ###
+
+# screenshotsFolder
+screenshots 
+
+# snapshots
+component-test/snapshots/search-zip-code.feature/__diff_output__
+
+# videos
+videos
+
+# mochawesome-report
+mochawesome-report
+
+#report
+component-test/report/generated
