@@ -21,9 +21,9 @@ $ cd component-test
 $ docker-compose -f docker-compose.yml up -d --build --force-recreate
 ```
 O app está presente em "http://localhost:3000/" e o Stubby em "http://localhost:8884/".
-#### 4. Executar o teste via Cypress :
+#### 4. Executar o teste via Cypress (headless):
 ```
-$ npm run e2e-test:failOnSnapshotDiff
+$ npm run e2e-test:headless
 ```
 #### 5. Gerar o relatório :
 ```
